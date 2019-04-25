@@ -1,0 +1,792 @@
+Canada 
+ 1314 
+ 1314 
+ #CONCACAF# 
+Fiji 
+ 992 
+ 981 
+ #OFC# 
+Turkmenistan 
+ 1089 
+ 1089 
+ #AFC# 
+Korea Republic 
+ 1462 
+ 1451 
+ #AFC# 
+Lithuania 
+ 1102 
+ 1111 
+ #UEFA# 
+Sao Tome e Principe 
+ 920 
+ 920 
+ #CAF# 
+Cambodia 
+ 967 
+ 970 
+ #AFC# 
+Ethiopia 
+ 1049 
+ 1049 
+ #CAF# 
+Aruba 
+ 909 
+ 916 
+ #CONCACAF# 
+Sri Lanka 
+ 886 
+ 886 
+ #AFC# 
+Grenada 
+ 973 
+ 968 
+ #CONCACAF# 
+Palestine 
+ 1224 
+ 1224 
+ #AFC# 
+Argentina 
+ 1580 
+ 1582 
+ #CONMEBOL# 
+Bolivia 
+ 1366 
+ 1374 
+ #CONMEBOL# 
+Cameroon 
+ 1399 
+ 1394 
+ #CAF# 
+Burkina Faso 
+ 1380 
+ 1371 
+ #CAF# 
+Ghana 
+ 1423 
+ 1412 
+ #CAF# 
+Saudi Arabia 
+ 1342 
+ 1344 
+ #AFC# 
+Laos 
+ 923 
+ 923 
+ #AFC# 
+Republic of Ireland 
+ 1484 
+ 1474 
+ #UEFA# 
+Montserrat 
+ 895 
+ 887 
+ #CONCACAF# 
+Slovenia 
+ 1366 
+ 1369 
+ #UEFA# 
+Guatemala 
+ 1074 
+ 1061 
+ #CONCACAF# 
+Bosnia and Herzegovina 
+ 1478 
+ 1472 
+ #UEFA# 
+Korea DPR 
+ 1152 
+ 1152 
+ #AFC# 
+Jordan 
+ 1229 
+ 1238 
+ #AFC# 
+St. Lucia 
+ 975 
+ 976 
+ #CONCACAF# 
+Spain 
+ 1601 
+ 1591 
+ #UEFA# 
+Liberia 
+ 1044 
+ 1051 
+ #CAF# 
+Netherlands 
+ 1554 
+ 1560 
+ #UEFA# 
+FYR Macedonia 
+ 1350 
+ 1343 
+ #UEFA# 
+Pakistan 
+ 888 
+ 888 
+ #AFC# 
+Oman 
+ 1277 
+ 1273 
+ #AFC# 
+Tanzania 
+ 1105 
+ 1087 
+ #CAF# 
+Seychelles 
+ 908 
+ 911 
+ #CAF# 
+Gabon 
+ 1272 
+ 1277 
+ #CAF# 
+Bahamas 
+ 855 
+ 858 
+ #CONCACAF# 
+Samoa 
+ 896 
+ 896 
+ #OFC# 
+New Zealand 
+ 1157 
+ 1157 
+ #OFC# 
+Yemen 
+ 1073 
+ 1073 
+ #AFC# 
+Jamaica 
+ 1391 
+ 1404 
+ #CONCACAF# 
+Albania 
+ 1368 
+ 1372 
+ #UEFA# 
+England 
+ 1647 
+ 1631 
+ #UEFA# 
+Chinese Taipei 
+ 1128 
+ 1134 
+ #AFC# 
+Macau 
+ 925 
+ 925 
+ #AFC# 
+United Arab Emirates 
+ 1360 
+ 1355 
+ #AFC# 
+Guam 
+ 907 
+ 907 
+ #AFC# 
+Kosovo 
+ 1124 
+ 1113 
+ #UEFA# 
+India 
+ 1219 
+ 1219 
+ #AFC# 
+Azerbaijan 
+ 1202 
+ 1206 
+ #UEFA# 
+Madagascar 
+ 1203 
+ 1209 
+ #CAF# 
+Lesotho 
+ 1075 
+ 1069 
+ #CAF# 
+Kenya 
+ 1202 
+ 1210 
+ #CAF# 
+Tajikistan 
+ 1155 
+ 1155 
+ #AFC# 
+Turkey 
+ 1457 
+ 1443 
+ #UEFA# 
+Afghanistan 
+ 1057 
+ 1066 
+ #AFC# 
+Czech Republic 
+ 1424 
+ 1435 
+ #UEFA# 
+Eritrea 
+ 868 
+ 868 
+ #CAF# 
+Solomon Islands 
+ 1083 
+ 1073 
+ #OFC# 
+Turks and Caicos Islands 
+ 862 
+ 864 
+ #CONCACAF# 
+San Marino 
+ 848 
+ 854 
+ #UEFA# 
+Mongolia 
+ 915 
+ 915 
+ #AFC# 
+France 
+ 1734 
+ 1726 
+ #UEFA# 
+Rwanda 
+ 1088 
+ 1094 
+ #CAF# 
+Slovakia 
+ 1482 
+ 1483 
+ #UEFA# 
+Somalia 
+ 868 
+ 868 
+ #CAF# 
+Peru 
+ 1516 
+ 1518 
+ #CONMEBOL# 
+Vanuatu 
+ 991 
+ 996 
+ #OFC# 
+Norway 
+ 1420 
+ 1425 
+ #UEFA# 
+Malawi 
+ 1122 
+ 1115 
+ #CAF# 
+Cook Islands 
+ 908 
+ 908 
+ #OFC# 
+Benin 
+ 1267 
+ 1257 
+ #CAF# 
+Singapore 
+ 998 
+ 991 
+ #AFC# 
+Montenegro 
+ 1419 
+ 1427 
+ #UEFA# 
+Togo 
+ 1127 
+ 1136 
+ #CAF# 
+Armenia 
+ 1206 
+ 1222 
+ #UEFA# 
+Timor-Leste 
+ 900 
+ 900 
+ #AFC# 
+Dominican Republic 
+ 1028 
+ 1036 
+ #CONCACAF# 
+Ukraine 
+ 1493 
+ 1482 
+ #UEFA# 
+Bahrain 
+ 1188 
+ 1188 
+ #AFC# 
+Tonga 
+ 868 
+ 868 
+ #OFC# 
+Indonesia 
+ 1008 
+ 1003 
+ #AFC# 
+Libya 
+ 1207 
+ 1217 
+ #CAF# 
+Finland 
+ 1375 
+ 1375 
+ #UEFA# 
+Central African Republic 
+ 1184 
+ 1180 
+ #CAF# 
+Mauritius 
+ 1022 
+ 1022 
+ #CAF# 
+Sweden 
+ 1567 
+ 1560 
+ #UEFA# 
+Belarus 
+ 1301 
+ 1317 
+ #UEFA# 
+British Virgin Islands 
+ 867 
+ 867 
+ #CONCACAF# 
+Mali 
+ 1365 
+ 1363 
+ #CAF# 
+Congo DR 
+ 1425 
+ 1420 
+ #CAF# 
+Russia 
+ 1425 
+ 1424 
+ #UEFA# 
+Bulgaria 
+ 1419 
+ 1425 
+ #UEFA# 
+Romania 
+ 1496 
+ 1501 
+ #UEFA# 
+IR Iran 
+ 1516 
+ 1516 
+ #AFC# 
+Portugal 
+ 1607 
+ 1614 
+ #UEFA# 
+South Africa 
+ 1335 
+ 1325 
+ #CAF# 
+St. Vincent and the Grenadines 
+ 954 
+ 946 
+ #CONCACAF# 
+Nicaragua 
+ 1120 
+ 1119 
+ #CONCACAF# 
+Liechtenstein 
+ 932 
+ 937 
+ #UEFA# 
+Malaysia 
+ 986 
+ 985 
+ #AFC# 
+Austria 
+ 1479 
+ 1509 
+ #UEFA# 
+Vietnam 
+ 1227 
+ 1227 
+ #AFC# 
+Mozambique 
+ 1166 
+ 1167 
+ #CAF# 
+Uganda 
+ 1302 
+ 1320 
+ #CAF# 
+Kyrgyz Republic 
+ 1253 
+ 1253 
+ #AFC# 
+Hungary 
+ 1419 
+ 1412 
+ #UEFA# 
+Niger 
+ 1209 
+ 1205 
+ #CAF# 
+Brazil 
+ 1676 
+ 1676 
+ #CONMEBOL# 
+Faroe Islands 
+ 1213 
+ 1238 
+ #UEFA# 
+Guinea 
+ 1350 
+ 1354 
+ #CAF# 
+Panama 
+ 1327 
+ 1324 
+ #CONCACAF# 
+Guyana 
+ 959 
+ 951 
+ #CONCACAF# 
+Scotland 
+ 1430 
+ 1446 
+ #UEFA# 
+Costa Rica 
+ 1458 
+ 1461 
+ #CONCACAF# 
+Luxembourg 
+ 1277 
+ 1276 
+ #UEFA# 
+American Samoa 
+ 908 
+ 908 
+ #OFC# 
+Andorra 
+ 1099 
+ 1111 
+ #UEFA# 
+Gibraltar 
+ 900 
+ 905 
+ #UEFA# 
+Wales 
+ 1539 
+ 1525 
+ #UEFA# 
+Nigeria 
+ 1435 
+ 1427 
+ #CAF# 
+Ecuador 
+ 1378 
+ 1382 
+ #CONMEBOL# 
+Bangladesh 
+ 909 
+ 907 
+ #AFC# 
+US Virgin Islands 
+ 888 
+ 881 
+ #CONCACAF# 
+Australia 
+ 1441 
+ 1441 
+ #AFC# 
+Bhutan 
+ 917 
+ 917 
+ #AFC# 
+Algeria 
+ 1348 
+ 1349 
+ #CAF# 
+El Salvador 
+ 1344 
+ 1327 
+ #CONCACAF# 
+St. Kitts and Nevis 
+ 1096 
+ 1105 
+ #CONCACAF# 
+Chile 
+ 1559 
+ 1565 
+ #CONMEBOL# 
+Puerto Rico 
+ 940 
+ 948 
+ #CONCACAF# 
+Belgium 
+ 1737 
+ 1727 
+ #UEFA# 
+Thailand 
+ 1174 
+ 1169 
+ #AFC# 
+Haiti 
+ 1223 
+ 1219 
+ #CONCACAF# 
+Iraq 
+ 1319 
+ 1310 
+ #AFC# 
+Hong Kong 
+ 1078 
+ 1078 
+ #AFC# 
+Sierra Leone 
+ 1172 
+ 1172 
+ #CAF# 
+China PR 
+ 1327 
+ 1339 
+ #AFC# 
+Georgia 
+ 1256 
+ 1269 
+ #UEFA# 
+Denmark 
+ 1586 
+ 1589 
+ #UEFA# 
+Poland 
+ 1535 
+ 1518 
+ #UEFA# 
+Moldova 
+ 974 
+ 979 
+ #UEFA# 
+Morocco 
+ 1429 
+ 1440 
+ #CAF# 
+Croatia 
+ 1621 
+ 1634 
+ #UEFA# 
+Guinea-Bissau 
+ 1158 
+ 1158 
+ #CAF# 
+Switzerland 
+ 1604 
+ 1599 
+ #UEFA# 
+Angola 
+ 1142 
+ 1131 
+ #CAF# 
+Cape Verde Islands 
+ 1319 
+ 1325 
+ #CAF# 
+Belize 
+ 994 
+ 1002 
+ #CONCACAF# 
+Chad 
+ 956 
+ 956 
+ #CAF# 
+Estonia 
+ 1240 
+ 1246 
+ #UEFA# 
+Uruguay 
+ 1613 
+ 1609 
+ #CONMEBOL# 
+Equatorial Guinea 
+ 1074 
+ 1063 
+ #CAF# 
+Lebanon 
+ 1277 
+ 1277 
+ #AFC# 
+Uzbekistan 
+ 1279 
+ 1275 
+ #AFC# 
+Egypt 
+ 1384 
+ 1393 
+ #CAF# 
+Djibouti 
+ 896 
+ 896 
+ #CAF# 
+Bermuda 
+ 959 
+ 952 
+ #CONCACAF# 
+Antigua and Barbuda 
+ 1136 
+ 1126 
+ #CONCACAF# 
+Dominica 
+ 954 
+ 950 
+ #CONCACAF# 
+Colombia 
+ 1573 
+ 1575 
+ #CONMEBOL# 
+Burundi 
+ 1089 
+ 1085 
+ #CAF# 
+Eswatini 
+ 1074 
+ 1078 
+ #CAF# 
+Cyprus 
+ 1276 
+ 1276 
+ #UEFA# 
+Barbados 
+ 996 
+ 998 
+ #CONCACAF# 
+Qatar 
+ 1398 
+ 1398 
+ #AFC# 
+Italy 
+ 1550 
+ 1539 
+ #UEFA# 
+Curacao 
+ 1296 
+ 1306 
+ #CONCACAF# 
+USA 
+ 1506 
+ 1501 
+ #CONCACAF# 
+Sudan 
+ 1106 
+ 1120 
+ #CAF# 
+Nepal 
+ 996 
+ 1001 
+ #AFC# 
+Malta 
+ 943 
+ 926 
+ #UEFA# 
+Brunei Darussalam 
+ 903 
+ 903 
+ #AFC# 
+Kuwait 
+ 1022 
+ 1018 
+ #AFC# 
+Maldives 
+ 1046 
+ 1046 
+ #AFC# 
+Suriname 
+ 1045 
+ 1037 
+ #CONCACAF# 
+Cayman Islands 
+ 867 
+ 874 
+ #CONCACAF# 
+Anguilla 
+ 857 
+ 864 
+ #CONCACAF# 
+Venezuela 
+ 1484 
+ 1478 
+ #CONMEBOL# 
+Israel 
+ 1285 
+ 1265 
+ #UEFA# 
+Iceland 
+ 1450 
+ 1451 
+ #UEFA# 
+Zambia 
+ 1302 
+ 1292 
+ #CAF# 
+Senegal 
+ 1515 
+ 1505 
+ #CAF# 
+Papua New Guinea 
+ 984 
+ 984 
+ #OFC# 
+Zimbabwe 
+ 1190 
+ 1175 
+ #CAF# 
+Germany 
+ 1570 
+ 1558 
+ #UEFA# 
+Gambia 
+ 994 
+ 986 
+ #CAF# 
+Kazakhstan 
+ 1171 
+ 1159 
+ #UEFA# 
+Philippines 
+ 1135 
+ 1135 
+ #AFC# 
+Mauritania 
+ 1210 
+ 1222 
+ #CAF# 
+Tahiti 
+ 1020 
+ 1020 
+ #OFC# 
+Northern Ireland 
+ 1481 
+ 1465 
+ #UEFA# 
+New Caledonia 
+ 1026 
+ 1036 
+ #OFC# 
+Trinidad and Tobago 
+ 1258 
+ 1260 
+ #CONCACAF# 
+Latvia 
+ 1101 
+ 1112 
+ #UEFA# 
+South Sudan 
+ 989 
+ 994 
+ #CAF# 
+Japan 
+ 1494 
+ 1495 
+ #AFC# 
+Syria 
+ 1286 
+ 1286 
+ #AFC# 
