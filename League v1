@@ -1,0 +1,132 @@
+import java.util.ArrayList;
+
+/* 
+ * @Zion Chilagan
+ * Class league is responsible for simulating qualifying tournaments for a specific region. Each team 
+ * plays against each other twice, with both teams switching between home and away. 
+ * This is in a very basic state, posting this now to get some feedback from others.
+ */
+
+public class League {
+
+	private ArrayList<Team> teams = new ArrayList<Team>();
+	
+	
+	//League passes in a list of teams
+	public League(ArrayList<Team> newTeams) {
+		teams = newTeams;
+	}
+	
+	/*
+	 * SimulateQualifiers uses an advance for loop to traverse through the array so that each team plays 
+	 * each other twice. 
+	 * 
+	 * To-do: Right now, the teams are playing each other in a linear order, would
+	 * like to add some sort of randomizing effect to simulate two teams "waiting" before playing each other
+	 * again, and of course to randomize order of matches.
+	 * 
+	 * This is last priority but implementing how each region actually formats their qualifiers
+	 */
+	public void simulateQualifiers() {
+		for(int i = 0; i < teams.size(); i++) {						
+			for(int k = teams.size()-1; k > i; k--) {
+				System.out.println(teams.get(i).getName() + " vs. " + teams.get(k).getName());
+				simulateMatch(teams.get(i), teams.get(k));
+				
+				System.out.println(teams.get(k).getName() + " vs. " + teams.get(i).getName());
+				simulateMatch(teams.get(k), teams.get(i));
+				
+				
+			}
+		}
+	}
+	
+	
+	/*
+	 * simulateMatch passes in two teams and reuses the rank-based points algorithm from 
+	 * Maintenance project to simulate a match. 
+	 * 
+	 * To-do: 
+	 * - Tweak the algorithm for a team's amount of points by adding in "home game advantage" feature
+	 * - Implement whether or not the match is home or away
+	 * - Figure out tie situation
+	 */
+	public void simulateMatch(Team team1, Team team2) {
+		int points1;
+		int points2;
+		
+		points1 = (int) (((Math.random() * 4) + 1) * (1 - (team1.getRank() * 0.02)));		//create points for team1
+        points2 = (int) (((Math.random() * 4) + 1) * (1 - (team2.getRank() * 0.02)));		//create points for team2
+        
+		team1.setPoints(points1);	
+		team2.setPoints(points2);
+		
+		System.out.println(team1.getName() + " points: " + team1.getPoints());
+		System.out.println(team2.getName() + " points: " + team2.getPoints());
+		
+		//This conditional statements are used to determine who scored what, and who won.
+		if(points1 > points2) {
+			team1.setScore(3);
+			int difference = points1 - points2;
+			System.out.println(team1.getName() + " beat " + team2.getName() + " by " + difference + "\n");
+		}
+		else if(points2 > points1) {
+			team2.setScore(3);
+			int difference = points2 - points1;
+			System.out.println(team2.getName() + " beat " + team1.getName() + " by " + difference + "\n");
+		}
+		
+		else{				
+			team1.setScore(1);
+			team2.setScore(1);
+			System.out.println("There was a tie between: " + team1.getName() + " & " + team2.getName() + "\n");
+		}
+	}
+	
+	/*
+	 * getTournamentScore prints the tournament score for each team
+	 * 
+	 * To-do:
+	 * Sort the score from highest to lowest, and store that into data that can be useful
+	 */
+	
+	public void getTournamentScore() {
+		for(Team t: teams) {
+			System.out.println(t.getName() + " tournamnet score: " + t.getScore());
+			
+		}
+	}
+	
+	
+	/*
+	 * Testing using nba teams
+	 */
+	public static void main(String [] args) {
+		ArrayList<Team> teams = new ArrayList<Team>();
+		
+		//Constructs teams with only having the knowledge of their name and rank
+		Team celtics = new Team("Celtics",1);
+		teams.add(celtics);
+		
+		Team gsw = new Team("GSW", 25);
+		teams.add(gsw);
+		
+		Team okc = new Team("OKC", 12);
+		teams.add(okc);
+		
+		Team rockets = new Team("Rockets", 30);
+		teams.add(rockets);
+		
+		Team knicks = new Team("Knicks", 31);
+		teams.add(knicks);
+		
+		
+		
+		
+		
+		League league = new League(teams);
+		league.simulateQualifiers();
+		league.getTournamentScore();
+		
+	}
+}
