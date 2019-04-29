@@ -55,9 +55,10 @@ public class League {
 		int points1;
 		int points2;
 		
+		//*Look here!!!
 		points1 = (int) (((Math.random() * 4) + 1) * (1 - (team1.getRank() * 0.02)));		//create points for team1
         points2 = (int) (((Math.random() * 4) + 1) * (1 - (team2.getRank() * 0.02)));		//create points for team2
-        
+        */
 		team1.setPoints(points1);	
 		team2.setPoints(points2);
 		
