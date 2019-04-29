@@ -1,0 +1,61 @@
+
+/*
+ * @Zion Chilagan
+ * 
+ * This class was made only for testing, I only added in whatever I needed to test League class
+ */
+public class Team {
+	
+	private int rank;
+	private int score; //score is incremented based on match results
+	private int points;	//points is the amount of points a team scored in a match
+	
+	private String name;
+	
+	public Team(String name, int rank, int score, int points) {
+		this.setRank(rank);
+		this.setScore(score);
+		this.setPoints(points);
+		this.setName(name);
+	}
+	
+	public Team(String name, int rank) {
+		this.rank = rank;
+		this.setName(name);
+	}
+	
+	public int getRank() {
+		return rank;
+	}
+
+	public void setRank(int rank) {
+		this.rank = rank;
+	}
+
+	public int getScore() {
+		return score;
+	}
+
+	public void setScore(int score) {
+		this.score += score;
+	}
+
+	public int getPoints() {
+		return points;
+	}
+	
+
+	public void setPoints(int points) {
+		this.points += points;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+
+}
