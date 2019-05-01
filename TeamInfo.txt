@@ -1,990 +1,792 @@
 Canada 
- 78 
  1314 
  1314 
  #CONCACAF# 
 Fiji 
- 165 
  992 
  981 
  #OFC# 
 Turkmenistan 
- 136 
  1089 
  1089 
  #AFC# 
 Korea Republic 
- 37 
  1462 
  1451 
  #AFC# 
 Lithuania 
- 132 
  1102 
  1111 
  #UEFA# 
 Sao Tome e Principe 
- 185 
  920 
  920 
  #CAF# 
 Cambodia 
- 173 
  967 
  970 
  #AFC# 
 Ethiopia 
- 150 
  1049 
  1049 
  #CAF# 
 Aruba 
- 188 
  909 
  916 
  #CONCACAF# 
 Sri Lanka 
- 202 
  886 
  886 
  #AFC# 
 Grenada 
- 172 
  973 
  968 
  #CONCACAF# 
 Palestine 
- 99 
  1224 
  1224 
  #AFC# 
 Argentina 
- 11 
  1580 
  1582 
  #CONMEBOL# 
 Bolivia 
- 63 
  1366 
  1374 
  #CONMEBOL# 
 Cameroon 
- 54 
  1399 
  1394 
  #CAF# 
 Burkina Faso 
- 58 
  1380 
  1371 
  #CAF# 
 Ghana 
- 49 
  1423 
  1412 
  #CAF# 
 Saudi Arabia 
- 72 
  1342 
  1344 
  #AFC# 
 Laos 
- 184 
  923 
  923 
  #AFC# 
 Republic of Ireland 
- 29 
  1484 
  1474 
  #UEFA# 
 Montserrat 
- 199 
  895 
  887 
  #CONCACAF# 
 Slovenia 
- 63 
  1366 
  1369 
  #UEFA# 
 Guatemala 
- 143 
  1074 
  1061 
  #CONCACAF# 
 Bosnia and Herzegovina 
- 35 
  1478 
  1472 
  #UEFA# 
 Korea DPR 
- 121 
  1152 
  1152 
  #AFC# 
 Jordan 
- 97 
  1229 
  1238 
  #AFC# 
 St. Lucia 
- 170 
  975 
  976 
  #CONCACAF# 
 Spain 
- 9 
  1601 
  1591 
  #UEFA# 
 Liberia 
- 153 
  1044 
  1051 
  #CAF# 
 Netherlands 
- 16 
  1554 
  1560 
  #UEFA# 
 FYR Macedonia 
- 68 
  1350 
  1343 
  #UEFA# 
 Pakistan 
- 200 
  888 
  888 
  #AFC# 
 Oman 
- 86 
  1277 
  1273 
  #AFC# 
 Tanzania 
- 131 
  1105 
  1087 
  #CAF# 
 Seychelles 
- 190 
  908 
  911 
  #CAF# 
 Gabon 
- 90 
  1272 
  1277 
  #CAF# 
 Bahamas 
- 210 
  855 
  858 
  #CONCACAF# 
 Samoa 
- 197 
  896 
  896 
  #OFC# 
 New Zealand 
- 119 
  1157 
  1157 
  #OFC# 
 Yemen 
- 146 
  1073 
  1073 
  #AFC# 
 Jamaica 
- 56 
  1391 
  1404 
  #CONCACAF# 
 Albania 
- 62 
  1368 
  1372 
  #UEFA# 
 England 
- 4 
  1647 
  1631 
  #UEFA# 
 Chinese Taipei 
- 125 
  1128 
  1134 
  #AFC# 
 Macau 
- 183 
  925 
  925 
  #AFC# 
 United Arab Emirates 
- 67 
  1360 
  1355 
  #AFC# 
 Guam 
- 193 
  907 
  907 
  #AFC# 
 Kosovo 
- 127 
  1124 
  1113 
  #UEFA# 
 India 
- 101 
  1219 
  1219 
  #AFC# 
 Azerbaijan 
- 108 
  1202 
  1206 
  #UEFA# 
 Madagascar 
- 107 
  1203 
  1209 
  #CAF# 
 Lesotho 
- 142 
  1075 
  1069 
  #CAF# 
 Kenya 
- 108 
  1202 
  1210 
  #CAF# 
 Tajikistan 
- 120 
  1155 
  1155 
  #AFC# 
 Turkey 
- 39 
  1457 
  1443 
  #UEFA# 
 Afghanistan 
- 149 
  1057 
  1066 
  #AFC# 
 Czech Republic 
- 48 
  1424 
  1435 
  #UEFA# 
 Eritrea 
- 203 
  868 
  868 
  #CAF# 
 Solomon Islands 
- 139 
  1083 
  1073 
  #OFC# 
 Turks and Caicos Islands 
- 208 
  862 
  864 
  #CONCACAF# 
 San Marino 
- 211 
  848 
  854 
  #UEFA# 
 Mongolia 
- 187 
  915 
  915 
  #AFC# 
 France 
- 2 
  1734 
  1726 
  #UEFA# 
 Rwanda 
- 138 
  1088 
  1094 
  #CAF# 
 Slovakia 
- 32 
  1482 
  1483 
  #UEFA# 
 Somalia 
- 203 
  868 
  868 
  #CAF# 
 Peru 
- 21 
  1516 
  1518 
  #CONMEBOL# 
 Vanuatu 
- 166 
  991 
  996 
  #OFC# 
 Norway 
- 50 
  1420 
  1425 
  #UEFA# 
 Malawi 
- 128 
  1122 
  1115 
  #CAF# 
 Cook Islands 
- 190 
  908 
  908 
  #OFC# 
 Benin 
- 91 
  1267 
  1257 
  #CAF# 
 Singapore 
- 160 
  998 
  991 
  #AFC# 
 Montenegro 
- 51 
  1419 
  1427 
  #UEFA# 
 Togo 
- 126 
  1127 
  1136 
  #CAF# 
 Armenia 
- 106 
  1206 
  1222 
  #UEFA# 
 Timor-Leste 
- 195 
  900 
  900 
  #AFC# 
 Dominican Republic 
- 154 
  1028 
  1036 
  #CONCACAF# 
 Ukraine 
- 27 
  1493 
  1482 
  #UEFA# 
 Bahrain 
- 111 
  1188 
  1188 
  #AFC# 
 Tonga 
- 203 
  868 
  868 
  #OFC# 
 Indonesia 
- 159 
  1008 
  1003 
  #AFC# 
 Libya 
- 105 
  1207 
  1217 
  #CAF# 
 Finland 
- 60 
  1375 
  1375 
  #UEFA# 
 Central African Republic 
- 112 
  1184 
  1180 
  #CAF# 
 Mauritius 
- 156 
  1022 
  1022 
  #CAF# 
 Sweden 
- 14 
  1567 
  1560 
  #UEFA# 
 Belarus 
- 81 
  1301 
  1317 
  #UEFA# 
 British Virgin Islands 
- 206 
  867 
  867 
  #CONCACAF# 
 Mali 
- 65 
  1365 
  1363 
  #CAF# 
 Congo DR 
- 46 
  1425 
  1420 
  #CAF# 
 Russia 
- 46 
  1425 
  1424 
  #UEFA# 
 Bulgaria 
- 51 
  1419 
  1425 
  #UEFA# 
 Romania 
- 25 
  1496 
  1501 
  #UEFA# 
 IR Iran 
- 21 
  1516 
  1516 
  #AFC# 
 Portugal 
- 7 
  1607 
  1614 
  #UEFA# 
 South Africa 
- 73 
  1335 
  1325 
  #CAF# 
 St. Vincent and the Grenadines 
- 178 
  954 
  946 
  #CONCACAF# 
 Nicaragua 
- 129 
  1120 
  1119 
  #CONCACAF# 
 Liechtenstein 
- 182 
  932 
  937 
  #UEFA# 
 Malaysia 
- 168 
  986 
  985 
  #AFC# 
 Austria 
- 34 
  1479 
  1509 
  #UEFA# 
 Vietnam 
- 98 
  1227 
  1227 
  #AFC# 
 Mozambique 
- 117 
  1166 
  1167 
  #CAF# 
 Uganda 
- 79 
  1302 
  1320 
  #CAF# 
 Kyrgyz Republic 
- 95 
  1253 
  1253 
  #AFC# 
 Hungary 
- 51 
  1419 
  1412 
  #UEFA# 
 Niger 
- 104 
  1209 
  1205 
  #CAF# 
 Brazil 
- 3 
  1676 
  1676 
  #CONMEBOL# 
 Faroe Islands 
- 102 
  1213 
  1238 
  #UEFA# 
 Guinea 
- 68 
  1350 
  1354 
  #CAF# 
 Panama 
- 74 
  1327 
  1324 
  #CONCACAF# 
 Guyana 
- 175 
  959 
  951 
  #CONCACAF# 
 Scotland 
- 44 
  1430 
  1446 
  #UEFA# 
 Costa Rica 
- 38 
  1458 
  1461 
  #CONCACAF# 
 Luxembourg 
- 86 
  1277 
  1276 
  #UEFA# 
 American Samoa 
- 190 
  908 
  908 
  #OFC# 
 Andorra 
- 134 
  1099 
  1111 
  #UEFA# 
 Gibraltar 
- 195 
  900 
  905 
  #UEFA# 
 Wales 
- 19 
  1539 
  1525 
  #UEFA# 
 Nigeria 
- 42 
  1435 
  1427 
  #CAF# 
 Ecuador 
- 59 
  1378 
  1382 
  #CONMEBOL# 
 Bangladesh 
- 188 
  909 
  907 
  #AFC# 
 US Virgin Islands 
- 200 
  888 
  881 
  #CONCACAF# 
 Australia 
- 41 
  1441 
  1441 
  #AFC# 
 Bhutan 
- 186 
  917 
  917 
  #AFC# 
 Algeria 
- 70 
  1348 
  1349 
  #CAF# 
 El Salvador 
- 71 
  1344 
  1327 
  #CONCACAF# 
 St. Kitts and Nevis 
- 135 
  1096 
  1105 
  #CONCACAF# 
 Chile 
- 15 
  1559 
  1565 
  #CONMEBOL# 
 Puerto Rico 
- 181 
  940 
  948 
  #CONCACAF# 
 Belgium 
- 1 
  1737 
  1727 
  #UEFA# 
 Thailand 
- 114 
  1174 
  1169 
  #AFC# 
 Haiti 
- 100 
  1223 
  1219 
  #CONCACAF# 
 Iraq 
- 76 
  1319 
  1310 
  #AFC# 
 Hong Kong 
- 141 
  1078 
  1078 
  #AFC# 
 Sierra Leone 
- 115 
  1172 
  1172 
  #CAF# 
 China PR 
- 74 
  1327 
  1339 
  #AFC# 
 Georgia 
- 94 
  1256 
  1269 
  #UEFA# 
 Denmark 
- 10 
  1586 
  1589 
  #UEFA# 
 Poland 
- 20 
  1535 
  1518 
  #UEFA# 
 Moldova 
- 171 
  974 
  979 
  #UEFA# 
 Morocco 
- 45 
  1429 
  1440 
  #CAF# 
 Croatia 
- 5 
  1621 
  1634 
  #UEFA# 
 Guinea-Bissau 
- 118 
  1158 
  1158 
  #CAF# 
 Switzerland 
- 8 
  1604 
  1599 
  #UEFA# 
 Angola 
- 122 
  1142 
  1131 
  #CAF# 
 Cape Verde Islands 
- 76 
  1319 
  1325 
  #CAF# 
 Belize 
- 163 
  994 
  1002 
  #CONCACAF# 
 Chad 
- 177 
  956 
  956 
  #CAF# 
 Estonia 
- 96 
  1240 
  1246 
  #UEFA# 
 Uruguay 
- 6 
  1613 
  1609 
  #CONMEBOL# 
 Equatorial Guinea 
- 143 
  1074 
  1063 
  #CAF# 
 Lebanon 
- 86 
  1277 
  1277 
  #AFC# 
 Uzbekistan 
- 85 
  1279 
  1275 
  #AFC# 
 Egypt 
- 57 
  1384 
  1393 
  #CAF# 
 Djibouti 
- 197 
  896 
  896 
  #CAF# 
 Bermuda 
- 175 
  959 
  952 
  #CONCACAF# 
 Antigua and Barbuda 
- 123 
  1136 
  1126 
  #CONCACAF# 
 Dominica 
- 178 
  954 
  950 
  #CONCACAF# 
 Colombia 
- 12 
  1573 
  1575 
  #CONMEBOL# 
 Burundi 
- 136 
  1089 
  1085 
  #CAF# 
 Eswatini 
- 143 
  1074 
  1078 
  #CAF# 
 Cyprus 
- 89 
  1276 
  1276 
  #UEFA# 
 Barbados 
- 161 
  996 
  998 
  #CONCACAF# 
 Qatar 
- 55 
  1398 
  1398 
  #AFC# 
 Italy 
- 17 
  1550 
  1539 
  #UEFA# 
 Curacao 
- 82 
  1296 
  1306 
  #CONCACAF# 
 USA 
- 24 
  1506 
  1501 
  #CONCACAF# 
 Sudan 
- 130 
  1106 
  1120 
  #CAF# 
 Nepal 
- 161 
  996 
  1001 
  #AFC# 
 Malta 
- 180 
  943 
  926 
  #UEFA# 
 Brunei Darussalam 
- 194 
  903 
  903 
  #AFC# 
 Kuwait 
- 156 
  1022 
  1018 
  #AFC# 
 Maldives 
- 151 
  1046 
  1046 
  #AFC# 
 Suriname 
- 152 
  1045 
  1037 
  #CONCACAF# 
 Cayman Islands 
- 206 
  867 
  874 
  #CONCACAF# 
 Anguilla 
- 209 
  857 
  864 
  #CONCACAF# 
 Venezuela 
- 29 
  1484 
  1478 
  #CONMEBOL# 
 Israel 
- 84 
  1285 
  1265 
  #UEFA# 
 Iceland 
- 40 
  1450 
  1451 
  #UEFA# 
 Zambia 
- 79 
  1302 
  1292 
  #CAF# 
 Senegal 
- 23 
  1515 
  1505 
  #CAF# 
 Papua New Guinea 
- 169 
  984 
  984 
  #OFC# 
 Zimbabwe 
- 110 
  1190 
  1175 
  #CAF# 
 Germany 
- 13 
  1570 
  1558 
  #UEFA# 
 Gambia 
- 163 
  994 
  986 
  #CAF# 
 Kazakhstan 
- 116 
  1171 
  1159 
  #UEFA# 
 Philippines 
- 124 
  1135 
  1135 
  #AFC# 
 Mauritania 
- 103 
  1210 
  1222 
  #CAF# 
 Tahiti 
- 158 
  1020 
  1020 
  #OFC# 
 Northern Ireland 
- 33 
  1481 
  1465 
  #UEFA# 
 New Caledonia 
- 155 
  1026 
  1036 
  #OFC# 
 Trinidad and Tobago 
- 93 
  1258 
  1260 
  #CONCACAF# 
 Latvia 
- 133 
  1101 
  1112 
  #UEFA# 
 South Sudan 
- 167 
  989 
  994 
  #CAF# 
 Japan 
- 26 
  1494 
  1495 
  #AFC# 
 Syria 
- 83 
  1286 
  1286 
  #AFC# 
