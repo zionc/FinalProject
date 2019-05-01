@@ -1,3 +1,5 @@
+//package worldcup;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -149,12 +151,58 @@ public class WorldCupSimulation extends Application {
         tabs.getTabs().addAll(concacafTab, conmebolTab, uefaTab, cafTab, afcTab, ofcTab);
 
 
-        InfoBox iq = new InfoBox();
-        //iq.instructions();
-        BracketPane bp = new BracketPane();
+        
+        
+
+BracketPane bp = new BracketPane();
+        
+        bp.addTeam("test1");
+        bp.addTeam("test2");
+        bp.addTeam("test3");
+        bp.addTeam("test4");
+        bp.addTeam("test5");
+        bp.addTeam("test6");
+        bp.addTeam("test7");
+        bp.addTeam("test8");
+        bp.addTeam("test9");
+        bp.addTeam("test10");
+        bp.addTeam("test11");
+        bp.addTeam("test12");
+        bp.addTeam("test13");
+        bp.addTeam("test14");
+        bp.addTeam("test15");
+        bp.addTeam("test16");
+        bp.addTeam("test17");
+        bp.addTeam("test18");
+        bp.addTeam("test19");
+        bp.addTeam("test20");
+        bp.addTeam("test21");
+        bp.addTeam("test22");
+        bp.addTeam("test23");
+        bp.addTeam("test24");
+        bp.addTeam("test25");
+        bp.addTeam("test26");
+        bp.addTeam("test27");
+        bp.addTeam("test28");
+        bp.addTeam("test29");
+        bp.addTeam("test30");
+        bp.addTeam("test31");
+        bp.addTeam("test32");
+        bp.addTeam("test33");
+        bp.addTeam("test34");
 //        bp.display();
         Button start = new Button();
         start.setText("Start Simulation");
+        start.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent e) {
+                primaryStage.setScene(new Scene(bp, 700, 1100));
+                primaryStage.setMaximized(true);
+            }
+        });
+                InfoBox iq = new InfoBox();
+        //iq.instructions();
+        
         Button info = new Button();
         info.setText("Information");
         info.setOnAction(e -> iq.instructions());
@@ -238,6 +286,5 @@ public class WorldCupSimulation extends Application {
     }
     
 }
-
 
 
