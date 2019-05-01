@@ -1,0 +1,11 @@
+World Cup Info
+- By hitting the commence button you simulate a regualr sean which is here are 
+  teams play the other in their league once.
+- The teams with highest ranks from their league go to the world cup
+- The first round of the world cup is teams are grouped with a seed team and 
+  games are played in a round robin format. team with most points advances
+- The next round is all knockout rounds and teams progress as they win or lose. Games cvan be won in  
+  overtime, by penalty kicks, or a tie.
+- The final two teams play each other for the championship while third and fourth places play each 
+  other for the third spot.
+
