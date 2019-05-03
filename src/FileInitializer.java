@@ -115,6 +115,7 @@ public class FileInitializer {
 						{
 							data=data.substring(1, data.length()-1);
 							temp.setRank(Integer.parseInt(data));
+							temp.setPoints((Integer.parseInt(data)));
 						}
 						if(counter==2)
 						{
