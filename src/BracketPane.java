@@ -18,12 +18,16 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
-
+import java.awt.event.*;
+import javafx.event.EventHandler;
+import javafx.scene.input.MouseButton;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.control.Tooltip;
 /**
  *
  * @author ben
  */
-public class BracketPane extends GridPane {
+public class BracketPane extends GridPane{
    
     ArrayList<BracketNode> teams;
     
@@ -67,6 +71,8 @@ public class BracketPane extends GridPane {
         
         this.setUpGrids();
     }
+    
+    
     
     public void setUpGrids(){
         leftTopBracket.setMinSize(400,250);
@@ -235,6 +241,14 @@ public class BracketPane extends GridPane {
         
     }
     
+    public void mouseEntered(MouseEvent event){
+        String text = "";
+        BracketNode node = (BracketNode) event.getSource();
+
+        Tooltip t = new Tooltip(text);
+        Tooltip.install(node, t);
+  
+    }
 
         /**
          * The BracketNode model for the Graphical display of the "Bracket"
@@ -283,7 +297,7 @@ public class BracketPane extends GridPane {
                         this.teamName = " "+teamName+" ";
                         name.setText(teamName);
                 }
-                
-               
-        }
+
+
+    }
 }
