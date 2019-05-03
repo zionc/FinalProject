@@ -16,9 +16,12 @@ import java.util.Arrays;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextFlow;
 import javax.swing.JTextArea;
+import javafx.scene.shape.Rectangle;
+import java.awt.Color;
 
 /**
  *
@@ -26,6 +29,11 @@ import javax.swing.JTextArea;
  */
 public class InfoBox {
 
+
+    InfoBox(){
+        
+        
+    }
 
     public static void display(String title, String message){
         Stage window = new Stage();
@@ -38,12 +46,14 @@ public class InfoBox {
         ScrollPane text = new ScrollPane(label);
         text.setHbarPolicy(ScrollPane.ScrollBarPolicy.NEVER);
         text.setVbarPolicy(ScrollPane.ScrollBarPolicy.ALWAYS);
+        text.setPrefSize(300, 300);
+        text.setContent(label);
         Button closeButton = new Button("Close the window");
         closeButton.setOnAction(e -> window.close());
         
         
-        VBox layout = new VBox(500);
-        layout.setMinWidth(500);
+        VBox layout = new VBox(10);
+        layout.setMinWidth(10);
         layout.getChildren().addAll(text, closeButton);
         layout.setAlignment(Pos.CENTER);
         
@@ -73,7 +83,7 @@ public class InfoBox {
     public void instructions(){
         FileInitializer fz = new FileInitializer();
         fz.readInstructions();
-        display("Instructions",fz.getInstructions());
+        display("Instructions", fz.getInstructions());
     }
 
 
