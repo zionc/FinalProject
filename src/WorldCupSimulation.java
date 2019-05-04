@@ -28,6 +28,8 @@ import javafx.scene.text.Text;
 import javafx.scene.text.TextFlow;
 
 import java.util.ArrayList;
+import javafx.scene.paint.Color;
+import javafx.scene.paint.Paint;
 
 @SuppressWarnings("Duplicates")
 
@@ -56,6 +58,12 @@ public class WorldCupSimulation extends Application {
 
         HBox main = new HBox();
         TabPane tabs = new TabPane();
+        Paint mainPaint = Color.DARKGREEN;
+        main.setBackground(new Background(new BackgroundFill(mainPaint, CornerRadii.EMPTY, Insets.EMPTY)));
+        Paint mainBorderPaint = Color.BLACK;
+        double mainBorderWidth = 1;
+        main.setBorder(new Border(new BorderStroke(mainBorderPaint,
+                                                   BorderStrokeStyle.SOLID, CornerRadii.EMPTY, new BorderWidths(mainBorderWidth))));
 
         /*
          * WELCOME PAGE TABS AND TABLES
@@ -111,6 +119,9 @@ public class WorldCupSimulation extends Application {
         bp.addTeam("test34");
 //        bp.display();
         Button start = new Button();
+        Paint startPaint = Color.HOTPINK;
+        start.setBackground(new Background(new BackgroundFill(startPaint, CornerRadii.EMPTY, Insets.EMPTY)));
+        start.setFont(new Font(15));
         start.setText("Start Simulation");
         start.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -124,11 +135,33 @@ public class WorldCupSimulation extends Application {
         
         Button info = new Button();
         info.setText("Information");
+        Paint infoPaint = Color.AQUA;
+        info.setBackground(new Background(new BackgroundFill(infoPaint, CornerRadii.EMPTY, Insets.EMPTY)));
+        info.setFont(new Font(15));
         info.setOnAction(e -> iq.instructions());
         Button instructions = new Button();
+        Paint instrPaint = Color.GOLD;
         instructions.setText("Instructions");
-        ToolBar startBar = new ToolBar(start, info, instructions);
+        instructions.setBackground(new Background(new BackgroundFill
+                                                  (instrPaint, CornerRadii.EMPTY, Insets.EMPTY)));
+        instructions.setFont(new Font(15));
+        Button close = new Button();
+        Paint closePaint = Color.BISQUE;
+        close.setText("End Program");
+        close.setBackground(new Background(new BackgroundFill
+                                           (closePaint, CornerRadii.EMPTY, Insets.EMPTY)));
+        close.setFont(new Font(15));
+        ToolBar startBar = new ToolBar(start, info, instructions, close);
         startBar.setOrientation(Orientation.VERTICAL);
+        startBar.setOrientation(Orientation.VERTICAL);
+        Paint backgroundPaint = Color.DARKGREEN;
+        startBar.setBackground(new Background(new BackgroundFill
+                                              (backgroundPaint, CornerRadii.EMPTY, Insets.EMPTY)));
+        Paint borderPaint = Color.BLACK;
+        double borderWidth = .5;
+        startBar.setBorder(new Border(new BorderStroke
+                                      (borderPaint, BorderStrokeStyle.SOLID, CornerRadii.EMPTY,
+                                       new BorderWidths(borderWidth))));
         BorderPane startPage = new BorderPane();
 //        startPage.setCenter(startBar);
         
