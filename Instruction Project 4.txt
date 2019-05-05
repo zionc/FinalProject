@@ -1,0 +1,9 @@
+Instructions 
+	To start:
+		Hit the commence buttun
+	Next
+		See which team made it to the final
+		make your bets and hit the button.
+	Final Selection
+		Make your final decision 
+		Hit the button to simulate final round.
