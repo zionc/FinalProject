@@ -8,54 +8,57 @@ public class MatchHistory {
 	//constructor
 	public MatchHistory()
 	{
-		history=new ArrayList<Match>();
+		history=new ArrayList<>();
 	}
+
 	//adds a specific match
 	public void addMatch(Match m)
 	{
 		history.add(m);
 	}
+
 	//returns a specific match
 	public Match getMatch(int i)
 	{
 		return history.get(i);
 	}
+
 	//returns the number of winners
-	public int getNumWinners()
-	{
+	public int getNumWinners() {
+
 		int counter=0;
-		for(int i=0;i<history.size();i++)
-		{
+		for(int i=0;i<history.size();i++) {
+
 			if(history.get(i).hasWinner())
 				counter++;
 		}
 		return counter;
 	}
 	//returns the number of losers
-	public int getNumLosers()
-	{
+	public int getNumLosers() {
+
 		int counter=0;
-		for(int i=0;i<history.size();i++)
-		{
+		for(int i=0;i<history.size();i++) {
+
 			if(history.get(i).hasLoser())
 				counter++;
 		}
 		return counter;
 	}
 	//returns the number of ties
-	public int getNumTies()
-	{
+	public int getNumTies() {
+
 		int counter=0;
-		for(int i=0;i<history.size();i++)
-		{
+		for(int i=0;i<history.size();i++) {
+
 			if(history.get(i).isTie())
 				counter++;
 		}
 		return counter;
 	}
 	//returns a list of teams that won any of their games
-	public ArrayList<Team> getWinningTeamList()
-	{
+	public ArrayList<Team> getWinningTeamList() {
+
 		ArrayList<Team >list=new ArrayList<Team>();
 		for(Match m: history)
 		{

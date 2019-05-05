@@ -13,8 +13,8 @@ public class FileInitializer {
 	private String instructions;
 	public FileInitializer()
 	{
-		teamDataPath="TeamInfo.txt";
-		instructionPath="Instructions.txt";
+		teamDataPath="C:\\Users\\afsca\\IdeaProjects\\ProjectMe\\src\\TeamInfo.txt";
+		instructionPath="C:\\Users\\afsca\\IdeaProjects\\ProjectMe\\src\\Instruction Project 4.txt";
 		File teamData=new File(teamDataPath);
 		File instructionData=new File(instructionPath);
 		teamList=new ArrayList<Team>();
@@ -202,36 +202,6 @@ public class FileInitializer {
 	
 	
 	
-	public static void main(String[] args)
-	{
-		FileInitializer fz = new FileInitializer();
-		ArrayList<Team> CONCACAF = fz.getRegionTeams("CONCACAF");
-		for(Team t: CONCACAF) {
-			System.out.println(t.toString());
-		}
-		ArrayList<Team> AFC = fz.getRegionTeams("AFC");
-		for(Team t: AFC) {
-			System.out.println(t.toString());
-		}
-		ArrayList<Team> UEFA = fz.getRegionTeams("UEFA");
-		for(Team t: UEFA) {
-			System.out.println(t.toString());
-		}
-		ArrayList<Team> CAF = fz.getRegionTeams("CAF");
-		for(Team t: CAF) {
-			System.out.println(t.toString());
-		}
-		ArrayList<Team> OFC = fz.getRegionTeams("OFC");
-		for(Team t: OFC) {
-			System.out.println(t.toString());
-		}
-		ArrayList<Team> CONMEBOL = fz.getRegionTeams("CONMEBOL");
-		for(Team t: CONMEBOL) {
-			System.out.println(t.toString());
-		}
-		
-		
-		//System.out.println(fz.toString());
-	}
+
 
 }

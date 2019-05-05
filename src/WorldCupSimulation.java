@@ -39,22 +39,21 @@ public class WorldCupSimulation extends Application {
     Scene scene2;
     Scene scene3;
 
-    ArrayList<Team> concacaf;
-    ArrayList<Team> afc;
-    ArrayList<Team> uefa;
-    ArrayList<Team> caf;
-    ArrayList<Team> ofc;
-    ArrayList<Team> conmebol;
-
     @Override
     public void start(Stage primaryStage) {
         FileInitializer fz = new FileInitializer();
-        concacaf = fz.getRegionTeams("CONCACAF");
-        conmebol = fz.getRegionTeams("CONMEBOL");
-        afc = fz.getRegionTeams("AFC");
-        uefa = fz.getRegionTeams("UEFA");
-        caf = fz.getRegionTeams("CAF");
-        ofc = fz.getRegionTeams("OFC");
+
+
+        Regions region = new Regions();
+
+        region.setAmericas(new League("CONCACAF",fz.getRegionTeams("CONCACAF")));
+        region.setAfrica(new League("CAF",fz.getRegionTeams("CAF")));
+        region.setAsia(new League("AFC",fz.getRegionTeams("AFC")));
+        region.setEurope(new League("UEFA",fz.getRegionTeams("UEFA")));
+        region.setOceania(new League("OFC",fz.getRegionTeams("OFC")));
+        region.setSouthAmerica(new League("CONMEBOL",fz.getRegionTeams("CONMEBOL")));
+
+        System.out.println(region.getAsia().toString());
 
         HBox main = new HBox();
         TabPane tabs = new TabPane();
@@ -68,14 +67,14 @@ public class WorldCupSimulation extends Application {
         /*
          * WELCOME PAGE TABS AND TABLES
          */
-        Tab concacafTab = createTab("CONCACAF");
-        Tab conmebolTab = createTab("CONMEBOL");
-        Tab uefaTab = createTab("UEFA");
-        Tab cafTab = createTab("CAF");
-        Tab afcTab = createTab("AFC");
-        Tab ofcTab = createTab("OFC");
+        Tab concacafTab = createTab(region.getAmericas().getName(),region.getAmericas());
+        Tab conmebolTab = createTab(region.getAmericas().getName(),region.getSouthAmerica());
+        Tab uefaTab = createTab(region.getEurope().getName(),region.getEurope());
+        Tab cafTab = createTab(region.getAmericas().getName(),region.getAfrica());
+        Tab afcTab = createTab(region.getAsia().getName(),region.getAsia());
+        Tab ofcTab = createTab(region.getAfrica().getName(),region.getOceania());
 
-        tabs.getTabs().addAll(concacafTab, conmebolTab, uefaTab, cafTab, afcTab, ofcTab);
+        tabs.getTabs().addAll(concacafTab,conmebolTab,uefaTab,cafTab,afcTab,ofcTab );
         tabs.setPrefWidth(800);
 
         /*
@@ -168,8 +167,8 @@ public class WorldCupSimulation extends Application {
         Label label2 = new Label("This is where the instructions go");
         Label label3 = new Label("This is where more info goes");
         
-        
-      
+
+
         BorderPane instructionPane = new BorderPane();
         instructionPane.setTop(instructions);
         
@@ -186,11 +185,8 @@ public class WorldCupSimulation extends Application {
         
         root.setCenter(instructions2);
 
-
         main.getChildren().addAll(startBar, tabs);
 
-
-        
         Scene scene = new Scene(main, 800, 600);
 
        // scene1 = new Scene(root);
@@ -202,24 +198,29 @@ public class WorldCupSimulation extends Application {
         primaryStage.show();
     }
 
-    public Tab createTab (String region) {
+    public Tab createTab (String region,League l) {
         Tab tab = new Tab(region);
         tab.setClosable(false);
+
+
 
         TableColumn<Team, String> nameColumn = new TableColumn<>("Name");
         nameColumn.setMinWidth(200);
         nameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
 
-        TableColumn<Team, String> rankColumn = new TableColumn<>("Rank");
+        TableColumn<Team, ArrayList> rankColumn = new TableColumn<>("Rank");
         rankColumn.setMinWidth(50);
+
         rankColumn.setCellValueFactory(new PropertyValueFactory<>("rank"));
+
+
 
         TableColumn<Team, String> pointsColumn = new TableColumn<>("Points");
         pointsColumn.setMinWidth(50);
         pointsColumn.setCellValueFactory(new PropertyValueFactory<>("points"));
 
         TableView<Team> table = new TableView<>();
-        table.setItems(getTeams(region));
+        table.setItems(getTeams(region,l));
         table.getColumns().addAll(nameColumn, rankColumn, pointsColumn);
         table.getSortOrder().add(rankColumn);
         tab.setContent(table);
@@ -227,30 +228,32 @@ public class WorldCupSimulation extends Application {
         return tab;
     }
 
-    public ObservableList<Team> getTeams(String region) {
-        if (region.equals("CONCACAF")) {
+    public ObservableList<Team> getTeams(String reg, League l) {
+
+
+        if (reg.equals("CONCACAF")) {
             ObservableList<Team> teams = FXCollections.observableArrayList();
-            teams.addAll(concacaf);
+            teams.addAll(l.getTeams());
             return teams;
-        } else if (region.equals("CONMEBOL")) {
+        } else if (reg.equals("CONMEBOL")) {
             ObservableList<Team> teams = FXCollections.observableArrayList();
-            teams.addAll(conmebol);
+            teams.addAll(l.getTeams());
             return teams;
-        } else if (region.equals("UEFA")) {
+        } else if (reg.equals("UEFA")) {
             ObservableList<Team> teams = FXCollections.observableArrayList();
-            teams.addAll(uefa);
+            teams.addAll(l.getTeams());
             return teams;
-        } else if (region.equals("CAF")) {
+        } else if (reg.equals("CAF")) {
             ObservableList<Team> teams = FXCollections.observableArrayList();
-            teams.addAll(caf);
+            teams.addAll(l.getTeams());
             return teams;
-        } else if (region.equals("AFC")) {
+        } else if (reg.equals("AFC")) {
             ObservableList<Team> teams = FXCollections.observableArrayList();
-            teams.addAll(afc);
+            teams.addAll(l.getTeams());
             return teams;
-        } else if (region.equals("OFC")) {
+        } else if (reg.equals("OFC")) {
             ObservableList<Team> teams = FXCollections.observableArrayList();
-            teams.addAll(ofc);
+            teams.addAll(l.getTeams());
             return teams;
         } else {
             return null;

@@ -127,16 +127,20 @@ public class Match {
 	{
 		return isTie;
 	}
-	public boolean hasWinner()
-	{
+
+	public boolean hasWinner() {
+
 		if(winner!=null)
+
 			return true;
+
 		return false;
+
 	}
-	public boolean hasLoser()
-	{
-		if(loser!=null)
-		{
+
+	public boolean hasLoser() {
+
+		if(loser!=null) {
 			return true;
 		}
 		return false;

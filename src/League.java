@@ -12,13 +12,21 @@ import java.util.Comparator;
 
 public class League implements Playable {
 
-	private ArrayList<Team> teams = new ArrayList<Team>();
+	private String name;
+	private ArrayList<Team> teams;
 	private MatchHistory matchHistory;
 	
 	
 	//League passes in a list of teams
-	public League(ArrayList<Team> newTeams) {
-		teams = newTeams;
+	public League(String n) {
+		name = n;
+		this.teams = new ArrayList<>();
+		matchHistory=new MatchHistory();
+	}
+
+	public League(String n, ArrayList t) {
+		name = n;
+		this.teams = t;
 		matchHistory=new MatchHistory();
 	}
 	
@@ -122,52 +130,24 @@ public class League implements Playable {
 			}
 		}
 	}
-	
-	
-	
-	/*
-	 * Testing using nba teams
-	 */
-	public static void main(String [] args) {
-		ArrayList<Team> teams = new ArrayList<Team>();
-		
-		//Constructs teams with only having the knowledge of their name and rank
-		Team celtics = new Team("Celtics",1);
-		//celtics.setPoints(100);
-		//celtics.setScore(500);
-		teams.add(celtics);
-		
-		
-		Team gsw = new Team("GSW", 8);
-		//gsw.setPoints(100);
-		//gsw.setScore(400);
-		teams.add(gsw);
-		
-		Team okc = new Team("OKC", 7);
-		///okc.setPoints(100);
-		//okc.setScore(300);
-		teams.add(okc);
-		
-		Team rockets = new Team("Rockets", 5);
-		//rockets.setPoints(100);
-		//rockets.setScore(200);
-		teams.add(rockets);
-		
-		Team knicks = new Team("Knicks", 3);
-		//knicks.setPoints(100);
-		//knicks.setScore(500);
-		teams.add(knicks);
-		
-		
-		
-		
-		
-		League league = new League(teams);
-		league.simulateQualifiers();
-		
-		System.out.println("-------SORTED--------");
-		
-		league.getTournamentScore();
-		
+	public String getName(){
+		return name;
+	}
+	public Team getTeam(int i){
+		return teams.get(i);
+	}
+	public ArrayList getTeams(){
+		return teams;
+	}
+	public String toString(){
+
+		String s = "This is the name, " +  name + "\n" +
+					"These are the teams" ;
+				for(Team t: teams){
+					s = s + t.toString() + "\n";
+				}
+				s = s + "match History" + matchHistory.toString();
+
+				return s;
 	}
 }
